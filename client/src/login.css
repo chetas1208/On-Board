@@ -1,0 +1,43 @@
+.login-page {
+    height: 100vh;
+    background: #f8f9fa;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.login-card {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 900px;
+}
+
+.left-section {
+    background-color: #e9ecef;
+    flex: 1;
+    color: #495057;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-section {
+    flex: 1;
+    border-left: 1px solid #dee2e6;
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+.footer {
+    font-size: 0.9rem;
+}

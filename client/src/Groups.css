@@ -1,0 +1,150 @@
+/* General Container Styles */
+.groups-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Light Mode */
+.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.light-mode .group-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    color: #000000;
+}
+
+.light-mode .create-group-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.light-mode .create-group-btn:hover {
+    background-color: #0056b3;
+}
+
+.light-mode .group-actions button:first-child {
+    background-color: #28a745;
+    color: white;
+}
+
+.light-mode .group-actions button:first-child:hover {
+    background-color: #218838;
+}
+
+.light-mode .group-actions button:last-child {
+    background-color: #dc3545;
+    color: white;
+}
+
+.light-mode .group-actions button:last-child:hover {
+    background-color: #c82333;
+}
+
+/* Dark Mode */
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode .group-card {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    color: #ffffff;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .create-group-btn {
+    background-color: #1e90ff;
+    color: white;
+}
+
+.dark-mode .create-group-btn:hover {
+    background-color: #1c86ee;
+}
+
+.dark-mode .group-actions button:first-child {
+    background-color: #4caf50;
+    color: white;
+}
+
+.dark-mode .group-actions button:first-child:hover {
+    background-color: #3e8e41;
+}
+
+.dark-mode .group-actions button:last-child {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.dark-mode .group-actions button:last-child:hover {
+    background-color: #c0392b;
+}
+
+/* Header Styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Create Group Button */
+.create-group-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 6px 10px; /* Smaller padding for a compact look */
+    border: none;
+    border-radius: 20px; /* Rounded button */
+    cursor: pointer;
+    font-size: 14px; /* Reduced font size */
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.create-group-btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px); /* Slight elevation effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.create-group-btn:active {
+    transform: translateY(0); /* Reset elevation on click */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Group List */
+.group-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+/* Group Card */
+.group-card {
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.group-card h3 {
+    margin: 10px 0;
+}
+
+/* Group Actions */
+.group-actions button {
+    margin: 5px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.group-actions button:hover {
+    transform: scale(1.05);
+}

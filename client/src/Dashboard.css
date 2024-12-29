@@ -1,0 +1,20 @@
+.dashboard-container {
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.job-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.job-card:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease-in-out;
+}
